@@ -1,4 +1,4 @@
-// Selecting Columns (using the guessed list)
+// Selecting Columns (let the guesser do the job, select only the fields you want, and start customizing types)
 // https://marmelab.com/react-admin/Tutorial.html
 
 /*
