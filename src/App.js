@@ -1,4 +1,4 @@
-// Roll our own PostEdit component, using EditGuesser suggestions
+// Customize PostEdit with disabled id field, name for user reference field and long text input for editing body field 
 // https://marmelab.com/react-admin/Tutorial.html
 
 /*
