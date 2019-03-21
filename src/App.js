@@ -1,4 +1,4 @@
-// Selecting Columns (let the guesser do the job, select only the fields you want, and start customizing types)
+// Using Field Types (UrlField instead of TextField for website)
 // https://marmelab.com/react-admin/Tutorial.html
 
 /*
