@@ -1,4 +1,4 @@
-// Have ListGuesser suggest how to handle the relationship between Users and Posts
+// Create a PostList component based on a customized version of the ListGuesser suggestion
 // https://marmelab.com/react-admin/Tutorial.html
 
 /*
@@ -18,7 +18,7 @@ export const PostList = props => (
   </List>
 );
 
-Guessed List for users from prior commit (now used in this commit, and imported from ./users.js). Browser shows same list of users: 
+Guessed List for users from earlier commit (now imported from our own ./users.js). Browser shows same list of users: 
 
 export const UserList = props => (
   <List {...props}>
@@ -38,7 +38,8 @@ export const UserList = props => (
 */
 
 import React from 'react';
-import { Admin, Resource, ListGuesser } from 'react-admin';
+import { Admin, Resource } from 'react-admin';
+import { PostList } from './posts'
 import { UserList } from './users'
 import jsonServerProvider from 'ra-data-json-server';
 
@@ -46,7 +47,7 @@ const dataProvider = jsonServerProvider('http://jsonplaceholder.typicode.com');
 
 const App = () => (
   <Admin dataProvider={dataProvider} >
-    <Resource name="posts" list={ListGuesser} />
+    <Resource name="posts" list={PostList} />
     <Resource name="users" list={UserList} />
   </Admin>
 )
