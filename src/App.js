@@ -1,4 +1,4 @@
-// Create a PostList component based on a customized version of the ListGuesser suggestion
+// Complete the PostList component with further customizations, including an Edit button
 // https://marmelab.com/react-admin/Tutorial.html
 
 /*
