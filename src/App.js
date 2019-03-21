@@ -1,4 +1,4 @@
-// Using Field Types (UrlField instead of TextField for website)
+// Using Field Types (Custom MyUrlField instead of react-admin built-in UrlField for website)
 // https://marmelab.com/react-admin/Tutorial.html
 
 /*
