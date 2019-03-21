@@ -1,4 +1,4 @@
-// Using Field Types (Custom MyUrlField instead of react-admin built-in UrlField for website)
+// Adding custom styles with material-ui provided JSS
 // https://marmelab.com/react-admin/Tutorial.html
 
 /*
