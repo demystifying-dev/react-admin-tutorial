@@ -1,4 +1,4 @@
-// Customize the Edit view title with a title component instead of the id
+// Added Search And Filters To The List
 // https://marmelab.com/react-admin/Tutorial.html
 
 import React from 'react';
