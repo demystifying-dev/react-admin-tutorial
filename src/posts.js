@@ -1,6 +1,10 @@
 import React from 'react';
 import { List, Datagrid, TextField, ReferenceField, EditButton, Edit, SimpleForm, ReferenceInput, SelectInput, TextInput, DisabledInput, LongTextInput, Create } from 'react-admin';
 
+const PostTitle = ({ record }) => {
+  return <span>Post {record ? `"${record.title}"` : ''}</span>
+}
+
 export const PostList = props => (
   <List {...props}>
     <Datagrid>
@@ -15,7 +19,7 @@ export const PostList = props => (
 )
 
 export const PostEdit = props => (
-  <Edit {...props}>
+  <Edit title={<PostTitle />} {...props}>
     <SimpleForm>
       <DisabledInput source="id" />
       <ReferenceInput source="userId" reference="users">

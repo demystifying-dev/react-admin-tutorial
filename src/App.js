@@ -1,4 +1,4 @@
-// Add support for post create.
+// Customize the Edit view title with a title component instead of the id
 // https://marmelab.com/react-admin/Tutorial.html
 
 import React from 'react';
