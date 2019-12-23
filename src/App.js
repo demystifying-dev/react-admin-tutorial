@@ -1,21 +1,26 @@
-// Added Menu Icons
-// https://marmelab.com/react-admin/Tutorial.html
-
 import React from 'react';
-import { Admin, Resource } from 'react-admin';
-import { PostList, PostEdit, PostCreate } from './posts'
-import { UserList } from './users'
-import jsonServerProvider from 'ra-data-json-server';
-import PostIcon from '@material-ui/icons/Book'
-import UserIcon from '@material-ui/icons/Group'
+import logo from './logo.svg';
+import './App.css';
 
-const dataProvider = jsonServerProvider('http://jsonplaceholder.typicode.com');
-
-const App = () => (
-  <Admin dataProvider={dataProvider} >
-    <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon} />
-    <Resource name="users" list={UserList} icon={UserIcon} />
-  </Admin>
-)
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
 
 export default App;
