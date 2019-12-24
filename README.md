@@ -5,7 +5,7 @@
 ## Progress
 
 - [x] Following react-admin v2.8.2
-- [ ] Following react-admin v3.1.1
+- [x] Following react-admin v3.1.1
 
 ## [Releases](https://github.com/demystifying-dev/react-admin-tutorial/releases)
 
