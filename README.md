@@ -14,6 +14,7 @@ Branch newversion shows state of new version
 | tag | link to repo | download |
 | --- | :---: | --- |
 | v2.8.2 | [v2.8.2](https://github.com/demystifying-dev/react-admin-tutorial/tree/v2.8.2) | [tar](https://github.com/demystifying-dev/react-admin-tutorial/archive/v2.8.2.tar.gz) - [zip](https://github.com/demystifying-dev/react-admin-tutorial/archive/v2.8.2.zip) |
+| v3.1.1 | see [newversion](https://github.com/demystifying-dev/react-admin-tutorial/tree/newversion)  to see where we are on the new tutorial | |
 
 ---
 
