@@ -27,10 +27,12 @@ export const PostList = props => (
 export const PostEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            <ReferenceInput source="userId" reference="users"><SelectInput optionText="id" /></ReferenceInput>
-            <TextInput source="id" />
+            <TextInput disabled source="id" />
+            <ReferenceInput source="userId" reference="users">
+                <SelectInput optionText="name" />
+            </ReferenceInput>
             <TextInput source="title" />
-            <TextInput source="body" />
+            <TextInput multiline source="body" />
         </SimpleForm>
     </Edit>
 );
