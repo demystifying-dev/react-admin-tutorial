@@ -1,3 +1,22 @@
+# Following the steps in the official react-admin tutorial https://marmelab.com/react-admin/Tutorial.html with a commit for each step 
+
+## [react-admin-tutorial](https://github.com/demystifying-dev/react-admin-tutorial)
+
+## Progress
+
+- [x] Following react-admin v2.8.2
+- [ ] Following react-admin v3.1.1
+
+## [Releases](https://github.com/demystifying-dev/react-admin-tutorial/releases)
+
+Branch newversion shows state of new version
+
+| tag | link to repo | download |
+| --- | :---: | --- |
+| v2.8.2 | [v2.8.2](https://github.com/demystifying-dev/react-admin-tutorial/tree/v2.8.2) | [tar](https://github.com/demystifying-dev/react-admin-tutorial/archive/v2.8.2.tar.gz) - [zip](https://github.com/demystifying-dev/react-admin-tutorial/archive/v2.8.2.zip) |
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
