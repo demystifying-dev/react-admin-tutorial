@@ -1,5 +1,6 @@
 import React from 'react';
-import { List,
+import { Filter,
+         List,
          Datagrid,
          TextField,
          ReferenceField,
@@ -15,8 +16,18 @@ import { List,
 const PostTitle = ({ record }) => {
     return <span>Post {record ? `"${record.title}"` : ''}</span>;
 };
+
+const PostFilter = (props) => (
+    <Filter {...props}>
+        <TextInput label="Search" source="q" alwaysOn />
+        <ReferenceInput label="User" source="userId" reference="users" allowEmpty>
+            <SelectInput optionText="name" />
+        </ReferenceInput>
+    </Filter>
+);
+
 export const PostList = props => (
-    <List {...props}>
+    <List filters={<PostFilter />} {...props}>
         <Datagrid>
             <TextField source="id" />
             <ReferenceField source="userId" reference="users">
